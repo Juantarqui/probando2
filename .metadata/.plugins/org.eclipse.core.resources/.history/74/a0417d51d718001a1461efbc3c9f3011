@@ -1,0 +1,17 @@
+package casting;
+
+public class Casting {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int a = 1, b = 3;
+		float c = 3.1f;
+		float s = a + c;
+		boolean aa = true;
+		System.out.print(s);
+		//noooo
+		//int ss = aa + (int))c ;
+
+	}
+
+}

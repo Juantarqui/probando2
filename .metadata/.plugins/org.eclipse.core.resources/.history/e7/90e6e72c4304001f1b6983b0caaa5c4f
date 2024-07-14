@@ -1,0 +1,12 @@
+package ejemplo_1;
+
+public class word_read {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//Sintaxis java
+		System.out.print("holamundo");
+
+	}
+
+}

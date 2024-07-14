@@ -1,0 +1,22 @@
+package lunes2;
+
+import java.util.Scanner;
+
+public class Lunes2XD {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		double x, x1, x2;
+		int a = new Scanner(System.in).nextInt();
+		int b = new Scanner(System.in).nextInt();
+		int c = new Scanner(System.in).nextInt();
+		x = Math.pow(b, 2)-(4*a*c);
+		if (a != 0) {
+			x1 = (-b + Math.sqrt(x))/(2*a);
+			x2 = (-b - Math.sqrt(x))/(2*a);
+			System.out.print("el resultado de x1 es: "+x1);
+			System.out.print("el resultado de x2 es: "+x2);
+		}System.out.print("la regla no se comple");
+	}
+
+}
